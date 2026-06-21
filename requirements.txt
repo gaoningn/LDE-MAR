@@ -1,0 +1,6 @@
+torch>=2.0
+numpy>=1.21
+SimpleITK>=2.1
+einops>=0.6
+scikit-image>=0.19
+matplotlib>=3.5

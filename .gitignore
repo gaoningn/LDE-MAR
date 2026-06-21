@@ -1,0 +1,24 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.so
+
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+parameters/
+outputs/
+data/
+*.log
+examples/test_data/
+
+# Model and DICOM binaries are ignored except for the reviewed release assets.
+*.pth
+!weights/*.pth
+*.pt
+*.ckpt
+*.dcm
+!examples/public_test_data/**/*.dcm
